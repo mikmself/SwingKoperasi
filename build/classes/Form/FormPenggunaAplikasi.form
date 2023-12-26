@@ -113,7 +113,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Serif" size="36" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Form User"/>
+        <Property name="text" type="java.lang.String" value="Form Pengguna Aplikasi"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="labelNo">

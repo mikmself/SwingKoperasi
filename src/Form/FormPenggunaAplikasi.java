@@ -3,10 +3,10 @@ import Koperasi.CRUD;
 import Main.Menu;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-public class FormUser extends javax.swing.JFrame {
+public class FormPenggunaAplikasi extends javax.swing.JFrame {
     CRUD Data = new CRUD();
     String status = "";
-    public FormUser() {
+    public FormPenggunaAplikasi() {
         initComponents();
         Data.Koneksi();
         TampilData();
@@ -87,7 +87,7 @@ public class FormUser extends javax.swing.JFrame {
         setSize(new java.awt.Dimension(1200, 700));
 
         jLabel1.setFont(new java.awt.Font("Serif", 1, 36)); // NOI18N
-        jLabel1.setText("Form User");
+        jLabel1.setText("Form Pengguna Aplikasi");
 
         labelNo.setText("ID");
 
@@ -245,7 +245,7 @@ public class FormUser extends javax.swing.JFrame {
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new FormUser().setVisible(true);
+                new FormPenggunaAplikasi().setVisible(true);
             }
         });
     }

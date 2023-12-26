@@ -4,7 +4,7 @@ import Form.FormAnggota;
 import Form.FormJenisSimpanan;
 import Form.FormTransaksiPinjaman;
 import Form.FormTransaksiSimpanan;
-import Form.FormUser;
+import Form.FormPenggunaAplikasi;
 import Form.FormJenisPinjaman;
 
 public class Menu extends javax.swing.JFrame {
@@ -28,8 +28,6 @@ public class Menu extends javax.swing.JFrame {
         btnLaporan = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
         btnAbout = new javax.swing.JButton();
-        btnProfile = new javax.swing.JButton();
-        btnManualBook = new javax.swing.JButton();
         btnKeluar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -105,20 +103,6 @@ public class Menu extends javax.swing.JFrame {
             }
         });
 
-        btnProfile.setText("Profile Team");
-        btnProfile.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnProfileActionPerformed(evt);
-            }
-        });
-
-        btnManualBook.setText("Manual Book");
-        btnManualBook.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnManualBookActionPerformed(evt);
-            }
-        });
-
         btnKeluar.setText("Keluar");
         btnKeluar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,11 +138,7 @@ public class Menu extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(btnJenisPinjaman, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnLaporan, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(btnProfile, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnManualBook, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                .addComponent(btnLaporan, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                 .addContainerGap(441, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -186,10 +166,7 @@ public class Menu extends javax.swing.JFrame {
                 .addGap(46, 46, 46)
                 .addComponent(jLabel5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnAbout, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnProfile, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnManualBook, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(btnAbout, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 213, Short.MAX_VALUE)
                 .addComponent(btnKeluar, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
@@ -212,7 +189,7 @@ public class Menu extends javax.swing.JFrame {
 
     private void btnUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUserActionPerformed
         this.dispose();
-        FormUser User = new FormUser();
+        FormPenggunaAplikasi User = new FormPenggunaAplikasi();
         User.setVisible(true);
     }//GEN-LAST:event_btnUserActionPerformed
 
@@ -246,18 +223,6 @@ public class Menu extends javax.swing.JFrame {
         About.setVisible(true);
     }//GEN-LAST:event_btnAboutActionPerformed
 
-    private void btnProfileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProfileActionPerformed
-        this.dispose();
-        Profile Profile = new Profile();
-        Profile.setVisible(true);
-    }//GEN-LAST:event_btnProfileActionPerformed
-
-    private void btnManualBookActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManualBookActionPerformed
-        this.dispose();
-        ManualBook ManualBook = new ManualBook();
-        ManualBook.setVisible(true);
-    }//GEN-LAST:event_btnManualBookActionPerformed
-
     private void btnKeluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKeluarActionPerformed
         this.dispose();
         Login Login = new Login();
@@ -278,9 +243,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JButton btnJenisSimpanan;
     private javax.swing.JButton btnKeluar;
     private javax.swing.JButton btnLaporan;
-    private javax.swing.JButton btnManualBook;
     private javax.swing.JButton btnPinjaman;
-    private javax.swing.JButton btnProfile;
     private javax.swing.JButton btnSimpanan;
     private javax.swing.JButton btnUser;
     private javax.swing.JLabel jLabel1;

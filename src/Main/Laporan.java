@@ -326,7 +326,7 @@ public class Laporan extends javax.swing.JFrame {
         jScrollPane2.setViewportView(tableTransaksiPinjaman);
 
         jLabel4.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
-        jLabel4.setText("2. Laporan transaksi simpanan");
+        jLabel4.setText("3. Laporan transaksi simpanan");
 
         tableTransaksiSimpanan.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

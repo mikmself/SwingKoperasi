@@ -103,7 +103,7 @@ public class FormJenisPinjaman extends javax.swing.JFrame {
         setSize(new java.awt.Dimension(1200, 700));
 
         jLabel1.setFont(new java.awt.Font("Serif", 1, 36)); // NOI18N
-        jLabel1.setText("Form Jenis Simpanan");
+        jLabel1.setText("Form Jenis Pinjaman");
 
         labelNo.setText("Kode");
 

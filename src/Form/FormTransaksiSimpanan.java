@@ -29,7 +29,7 @@ public class FormTransaksiSimpanan extends javax.swing.JFrame {
         };
         String judulKolom[] = {
             "No",            
-            "Kode Simpanan",
+            "Simpanan",
             "Anggota",
             "Tanggal",
             "Jenis",

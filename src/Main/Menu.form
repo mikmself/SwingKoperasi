@@ -50,11 +50,6 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="btnLaporan" min="-2" pref="145" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" attributes="0">
-                              <Component id="btnProfile" min="-2" pref="145" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="btnManualBook" min="-2" pref="145" max="-2" attributes="0"/>
-                          </Group>
                       </Group>
                   </Group>
               </Group>
@@ -89,11 +84,7 @@
               <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
               <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnAbout" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                  <Component id="btnProfile" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                  <Component id="btnManualBook" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-              </Group>
+              <Component id="btnAbout" min="-2" pref="38" max="-2" attributes="0"/>
               <EmptySpace pref="213" max="32767" attributes="0"/>
               <Component id="btnKeluar" min="-2" pref="38" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
@@ -204,22 +195,6 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAboutActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnProfile">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Profile Team"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnProfileActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnManualBook">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Manual Book"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnManualBookActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnKeluar">
